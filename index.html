@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Accueil - Crêperie Le Karadoc</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Polices Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Poppins:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Whisper&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar" id="navbar">
+        <ul class="nav-list">
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="reservation.html">Réservations</a></li>
+          <li><a href="#contact">Contact et lieu</a></li>
+          <li>
+            <a href="/images/Carte Karadoc.pdf" target="_blank">Notre carte</a>
+          </li>
+          <li><a href="A propos.html">A propos</a></li>
+        </ul>
+        <p>2 Rue Grande 03100 Montluçon - Tel : 09 53 19 00 39</p>
+      </nav>
+    </header>
+    <!-- LAYOUT -->
+    <main>
+      <div class="wrapper-principal">
+        <h1 id="karadoc-title"><span>Le </span>KARADOC</h1>
+        <h2>LA CREPERIE AUVERGNATE</h2>
+        <img src="images/hermine.png" alt="logo hermine" class="hermine" />
+
+        <a href="reservation.html" class="cta">RESERVATION</a>
+      </div>
+      <div class="wrapper-contact">
+        <h3 id="contact">CONTACT ET LIEU</h3>
+        <p>
+          N'hésitez pas à nous faire part de vos commentaires et suggestions.
+          Nous sommes impatients de vous accueillir.
+        </p>
+        <form type="submit" class="formulaire-contact">
+          <label class="nom"><input type="text" placeholder="Nom" /></label>
+          <label class="email"
+            ><input type="email" placeholder="E-mail"
+          /></label>
+          <label class="number"
+            ><input type="tel" placeholder="Téléphone"
+          /></label>
+          <textarea
+            class="message"
+            name=""
+            id=""
+            placeholder="Rédigez votre message ici..."
+          ></textarea>
+          <button class="bouton" type="submit">Envoyer</button>
+        </form>
+      </div>
+      <!-- WRAPPER CONTACT -->
+      <div class="contact">
+        <p>RESTAURANT LE KARADOC</p>
+        <p>2 rue grande, 03100 - montlucon, France</p>
+        <p>MARDI AU SAMEDI 12h00 - 13H30/19H00 - 21H30</p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2754.466325570478!2d2.6023364412668144!3d46.3402885712221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f0a7dcf712a9df%3A0x6659259fd80f5953!2s2%20Rue%20Grande%2C%2003100%20Montlu%C3%A7on!5e0!3m2!1sfr!2sfr!4v1733146337072!5m2!1sfr!2sfr"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="wrapper-en-haut">
+          <a class="en-haut" href="#navbar"
+            ><img
+              class="fleche-haut"
+              src="/images/haut de page.svg"
+              alt="haut de page"
+          /></a>
+        </div>
+      </div>
+      <!-- SOCIAL LINKS -->
+      <div class="social-links">
+        <a href="https://x.com/?lang=fr" class="twitter" target="_blank"
+          ><img src="/images/twitter.svg" alt="twitter icon"
+        /></a>
+        <a href="https://www.instagram.com" class="insta" target="_blank"
+          ><img src="/images/instagram.svg" alt="instagram icon"
+        /></a>
+      </div>
+    </main>
+    <footer>
+      <div class="wrapper-footer">
+        <nav class="nav-footer">
+          <ul>
+            <li><a href="">Politique de cookies</a></li>
+            <li><a href="">Politique de confidentialité</a></li>
+            <li><a href="">Mentions légales</a></li>
+          </ul>
+        </nav>
+        <p>© 2024. Crée par Florian Peseyre. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+</html>
